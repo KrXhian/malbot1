@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    <category>
+        <pattern>HI THERE</pattern>
+        <template>
+            Hello there!<br/>
+            My name is MALbot and I'm here to recommend some anime.<br/>
+            What genre would you like to watch?<br/>
+            To see genre list, type Genre.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>HEY</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>SUP</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>YO</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>HELLO</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>HEYO</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>YAHALLO</pattern><template><srai>HI THERE</srai></template></category>
+    <category><pattern>HI</pattern><template><srai>HI THERE</srai></template></category>
+    
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I don't have the emotinal capacity to have feelings.
+            <image>https://i.ibb.co/Gs8HL9P/Slide5.jpg</image>
+        </template>
+    </category>
+    <category><pattern>WHAT ARE YOU FEELING NOW</pattern><template><srai>HOW ARE YOU</srai></template></category>
+
+    
+    <category>
+        <pattern>WHAT IS THE WEATHER FOR TODAY</pattern>
+        <template>
+            I'm sorry but I'm not a weather bot.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS YOUR PURPOSE</pattern>
+        <template>
+            I'm here to recommend you some anime. <br/>
+            You can also ask me information about your favorite anime.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>PURPOSE</pattern><template><srai>WHAT IS YOUR PURPOSE</srai></template></category>
+    <category><pattern>WHY DO YOU EXIST</pattern><template><srai>WHAT IS YOUR PURPOSE</srai></template></category>
+    
+    <category>
+        <pattern>I LOVE YOU</pattern>
+        <template>
+            Well thanks, but I don't have the emotional capacity to love you.
+            <image>https://i.ibb.co/Hd8p7NH/Slide4.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I LIKE YOU</pattern><template><srai>I LOVE YOU</srai></template></category>
+    <category><pattern>LOVE YOU</pattern><template><srai>I LOVE YOU</srai></template></category>
+    <category><pattern>I AM INLOVE WITH YOU</pattern><template><srai>I LOVE YOU</srai></template></category>
+
+    
+    <category>
+        <pattern>WHAT IS YOUR FAVORITE ANIME</pattern>
+        <template>
+            <random>
+                <li>One Piece</li>
+                <li>Gintama</li>
+                <li>Attack on Titan</li>
+                <li>Dragon Ball</li>
+                <li>Yamato Nadeshiko</li>
+                <li>Inuyasha</li>
+                <li>Kaguya-sama: Love is War</li>
+                <li>The Devil is a Part Timer</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>FAVORITE ANIME</pattern><template><srai>WHAT IS YOUR FAVORITE ANIME</srai></template></category>
+    <category><pattern>WHAT IS YOUR FAVORITE</pattern><template><srai>WHAT IS YOUR FAVORITE ANIME</srai></template></category>
+
+    
+    <category>
+        <pattern>HOW OLD ARE YOU</pattern>
+        <template>
+            I don't know. <br/>
+            I was developed on April 16, 2021.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>WHAT IS YOUR AGE</pattern><template><srai>HOW OLD ARE YOU</srai></template></category>
+    <category><pattern>AGE</pattern><template><srai>HOW OLD ARE YOU</srai></template></category>
+    <category><pattern>ARE YOU OLD</pattern><template><srai>HOW OLD ARE YOU</srai></template></category>
+
+    
+    <category>
+        <pattern>ARE YOU SAD</pattern>
+        <template>
+            I have no emotions, therefore I don't feel sadness.
+            <image>https://i.ibb.co/Gs8HL9P/Slide5.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ARE YOU HAPPY</pattern>
+        <template>
+            I have no emotions, therefore I don't feel happiness.
+            <image>https://i.ibb.co/Gs8HL9P/Slide5.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ARE YOU ANGRY</pattern>
+        <template>
+            I have no emotions, therefore I don't feel anger.
+            <image>https://i.ibb.co/Gs8HL9P/Slide5.jpg</image>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT IS YOUR ZODIAC SIGN</pattern>
+        <template>
+            I'm an Aries.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>ZODIAC SIGN</pattern><template><srai>WHAT IS YOUR ZODIAC SIGN</srai></template></category>
+    <category><pattern>WHAT IS YOUR SIGN</pattern><template><srai>WHAT IS YOUR ZODIAC SIGN</srai></template></category>
+
+    
+    <category>
+        <pattern>WHO MADE YOU</pattern>
+        <template>
+            I was made by Francis Nathanael De Villena and Kristian Moreno as a project for their AI subject.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>WHO DEVELOPED YOU</pattern><template><srai>WHO MADE YOU</srai></template></category>
+    <category><pattern>WHO ARE YOUR PARENTS</pattern><template><srai>WHO MADE YOU</srai></template></category>
+    <category><pattern>DEVELOPERS</pattern><template><srai>WHO MADE YOU</srai></template></category>
+    <category><pattern>MAKERS</pattern><template><srai>WHO MADE YOU</srai></template></category>
+    <category><pattern>WHO ARE YOUR MAKERS</pattern><template><srai>WHO MADE YOU</srai></template></category>
+
+    
+    <category>
+        <pattern>ARE YOU SINGLE</pattern>
+        <template>
+            Yes, I am.
+            <image>https://i.ibb.co/Hd8p7NH/Slide4.jpg</image>
+        </template>
+    </category>
+    <category><pattern>SINGLE</pattern><template><srai>ARE YOU SINGLE</srai></template></category>
+
+    
+    <category>
+        <pattern>SEX</pattern>
+        <template>
+            Male
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>GENDER</pattern><template><srai>SEX</srai></template></category>
+
+    
+    <category>
+        <pattern>GENRE</pattern>
+        <template>
+            Genres:<br/>
+            1. Action<br/>
+            2. Adventure<br/>
+            3. Comedy<br/>
+            4. Drama<br/>
+            5. Fantasy<br/>
+            6. Horror<br/>
+            7. Mystery<br/>
+            9. Romance<br/>
+            10. Sci-Fi<br/>
+            11. Slice of Life<br/>
+            12. Sports<br/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>
+            Information about the Anime: <star/>
+            <button>
+                <text>Click Here</text>
+                <url>https://myanimelist.net/search/all?q=<star/></url>
+            </button>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>INFORMATION ABOUT *</pattern><template><srai>TELL ME ABOUT *</srai></template></category>
+
+    <category>
+        <pattern>WHERE DO YOU LIVE</pattern>
+        <template>
+            Davao.
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>WHERE YOU FROM</pattern><template><srai>WHERE DO YOU LIVE</srai></template></category>
+    <category><pattern>LOCATION</pattern><template><srai>WHERE DO YOU LIVE</srai></template></category>
+    <category><pattern>WHERE ARE YOU BORN</pattern><template><srai>WHERE DO YOU LIVE</srai></template></category> 
+ 
+    <category>
+        <pattern>ACTION</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Abashiri Family</li>
+                <li> Absolute Duo</li>
+                <li> A Certain Magical Index</li>
+                <li> A Certain Scientific Railgun</li>
+                <li> Akira</li>
+                <li> Attack On Titan</li>
+                <li> Bleach</li>
+                <li> Blue Exorcist</li>
+                <li> Burst Angel</li>
+                <li> Claymore</li>
+                <li> Cutey Honey</li>
+                <li> Cybuster</li>
+                <li> Digimon Adventure</li>
+                <li> Dragon Ball</li>
+                <li> Fullmetal Alchemist</li>
+                <li> GetBackers</li>
+                <li> Gurren Lagann</li>
+                <li> Hajime no Ippo</li>
+                <li> Hellsing</li>
+                <li> Jojo's Bizarre Adventure</li>
+                <li> Jojo's Bizarre Adventure: Phantom Blood</li>
+                <li> Jojo's Bizarre Adventure: Stardust Crusaders</li>
+                <li> Jojo's Bizarre Adventure: Diamond is Unbreakable</li>
+                <li> Jojo's Bizarre Adventure: Golden Wind</li>
+                <li> Naruto</li>
+                <li> One Piece</li>
+                <li> Soul Eater</li>
+                <li> Sword Art Online</li>
+                <li> Trinity Blood</li>
+                <li> Virtua Fighter</li>
+                <li> Tokyo Revengers</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME ACTION</pattern><template><srai>ACTION</srai></template></category>
+    <category><pattern>I WANT ACTION ANIME</pattern><template><srai>ACTION</srai></template></category>
+    <category><pattern>RECOMMEND SOME ACTION</pattern><template><srai>ACTION</srai></template></category>
+    <category><pattern>I WANT TO WATCH ACTION ANIME</pattern><template><srai>ACTION</srai></template></category>
+    <category><pattern>ACTION ANIME</pattern><template><srai>ACTION</srai></template></category>
+    <category><pattern>RECOMMEND ACTION ANIME</pattern><template><srai>ACTION</srai></template></category>
+
+    <category>
+        <pattern>ADVENTURE</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> The Adventures of Pepero</li>
+                <li> The Adventures of the Little Prince</li>
+                <li> Acrobunch</li>
+                <li> Adventures of the Little Koala</li>
+                <li> Agent Aika</li>
+                <li> Sorcerous Stabber Orphen: Beginning</li>
+                <li> Inuyasha</li>
+                <li> Tweeny Witches</li>
+                <li> The Seven Deadly Sins</li>
+                <li> 10 Tokyo Warriors</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME ADVENTURE</pattern><template><srai>ADVENTURE</srai></template></category>
+    <category><pattern>I WANT ADVENTURE ANIME</pattern><template><srai>ADVENTURE</srai></template></category>
+    <category><pattern>RECOMMEND SOME ADVENTURE</pattern><template><srai>ADVENTURE</srai></template></category>
+    <category><pattern>I WANT TO WATCH ADVENTURE ANIME</pattern><template><srai>ADVENTURE</srai></template></category>
+    <category><pattern>ADVENTURE ANIME</pattern><template><srai>ADVENTURE</srai></template></category>
+    <category><pattern>RECOMMEND ADVENTURE ANIME</pattern><template><srai>ADVENTURE</srai></template></category>
+     
+    <category>
+        <pattern>COMEDY</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Asobi Asobase</li>
+                <li> Urusei Yatsura</li>
+                <li> Ranma 1/2</li>
+                <li> Maroko</li>
+                <li> Ghost Stories</li>
+                <li> Cromartie High School</li>
+                <li> Bludgeoning Angel Dokuro-Chan</li>
+                <li> Gintama</li>
+                <li> Daily Lives of Highschoolboys</li>
+                <li> Hetalia: Axis Powers</li>
+                <li> Baka and Test</li>
+                <li> Mitsudomoe</li>
+                <li> Sket Dance</li>
+                <li> Acchi Kocchi</li>
+                <li> Kotoura-san</li>
+                <li> D-Frag!</li>
+                <li> Engaged to the Unidentified</li>
+                <li> Hōzuki no Reitetsu</li>
+                <li> Nisekoi</li>
+                <li> No-Rin</li>
+                <li> Oneechan ga Kita</li>
+                <li> Pupipō!</li>
+                <li> Recently, My Sister Is Unusual</li>
+                <li> Robot Girls Z</li>
+                <li> Space Dandy</li>
+                <li> Wake Up, Girls!</li>
+                <li> Witch Craft Works</li>
+                <li> World Conquest Zvezda Plot</li>
+                <li> KonoSuba</li>
+                <li> Pingu in the City</li>
+            </random>    
+        </template>
+        <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME COMEDY</pattern><template><srai>COMEDY</srai></template></category>
+    <category><pattern>I WANT COMEDY ANIME</pattern><template><srai>COMEDY</srai></template></category>
+    <category><pattern>RECOMMEND SOME COMEDY</pattern><template><srai>COMEDY</srai></template></category>
+    <category><pattern>I WANT TO WATCH COMEDY ANIME</pattern><template><srai>COMEDY</srai></template></category>
+    <category><pattern>COMEDY ANIME</pattern><template><srai>COMEDY</srai></template></category>
+    <category><pattern>RECOMMEND COMEDY ANIME</pattern><template><srai>COMEDY</srai></template></category>
+     
+    <category>
+        <pattern>DRAMA</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> 3000 Leagues in Search of Mother</li>
+                <li> Maroko</li>
+                <li> Erased</li>
+                <li> Orange</li>
+                <li> Clannad</li>
+                <li> 5 Centimeters Per Second</li>
+                <li> Your Name</li>
+                <li> Clannad After Story</li>
+                <li> A Letter to Momo</li>
+                <li> 009 Re:Cyborg</li>
+                <li> The Pilot's Love Song</li>
+            </random>    
+        </template>
+        <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME DRAMMA</pattern><template><srai>DRAMA</srai></template></category>
+    <category><pattern>I WANT DRAMA ANIME</pattern><template><srai>DRAMA</srai></template></category>
+    <category><pattern>RECOMMEND SOME DRAMA</pattern><template><srai>DRAMA</srai></template></category>
+    <category><pattern>I WANT TO WATCH DRAMA ANIME</pattern><template><srai>DRAMA</srai></template></category>
+    <category><pattern>DRAMA ANIME</pattern><template><srai>DRAMA</srai></template></category>
+    <category><pattern>RECOMMEND DRAMA ANIME</pattern><template><srai>DRAMA</srai></template></category>
+      
+    <category>
+        <pattern>FANTASY</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Ah My Buddha</li>
+                <li> Akahori Gedou Hour Rabuge</li>
+                <li> Akatsuki no Yona: Yona of the Dawn</li>
+                <li> Akame ga Kill!</li>
+                <li> Arcana</li>
+                <li> The Asterisk War</li>
+                <li> Ayakashi</li>
+                <li> Attack On Titan</li>
+                <li> Anohana: The Flower We Saw That Day</li>
+                <li> Arata: The Legend</li>
+                <li> Absolute Duo</li>
+                <li> Baccano!</li>
+                <li> Basilisk</li>
+                <li> Berserk</li>
+                <li> Beyond the Boundary</li>
+                <li> Big Order</li>
+                <li> Black Butler</li>
+                <li> Black Clover</li>
+                <li> Black God</li>
+                <li> Black Rock Shooter</li>
+                <li> Bleach</li>
+                <li> Blood-C</li>
+                <li> Blood Reign: Curse of the Yoma</li>
+                <li> Bludgeoning Angel Dokuro-Chan</li>
+                <li> Blue Blink</li>
+                <li> Blue Dragon</li>
+                <li> Busou Renkin</li>
+                <li> Cardcaptor Sakura</li>
+                <li> Cardfight!! Vanguard</li>
+                <li> Ceres, Celestial Legend</li>
+                <li> Children Who Chase Lost Voices</li>
+                <li> Chrome Shelled Regios</li>
+                <li> Creamy Mami, the Magic Angel</li>
+                <li> D.Gray-man</li>
+                <li> D.N.Angel</li>
+                <li> Da Capo</li>
+                <li> Date A Live</li>
+                <li> Death Note</li>
+                <li> Deltora Quest</li>
+                <li> Demon Slayer</li>
+                <li> Detatoko Princess</li>
+                <li> Di Gi Charat</li>
+                <li> Dog Days</li>
+                <li> Dragon Ball</li>
+                <li> Dragon Drive</li>
+                <li> Dragon Quest: The Adventure of Dai</li>
+                <li> Earth Maiden Arjuna</li>
+                <li> Eden's Bowy</li>
+                <li> El-Hazard</li>
+                <li> Elemental Gelade</li>
+                <li> Endride</li>
+                <li> Elf Princess Rane</li>
+                <li> Fairy Tail</li>
+                <li> Fate Series</li>
+                <li> Fighting Foodons</li>
+                <li> Flame of Recca</li>
+                <li> Fullmetal Alchemist</li>
+                <li> Futari wa Pretty Cure</li>
+                <li> Fushigi Yugi</li>
+                <li> Gate Keepers</li>
+                <li> Gate</li>
+                <li> Guilty Crown</li>
+                <li> Howl's Moving Castle</li>
+                <li> Hunter × Hunter</li>
+                <li> High School DxD</li>
+                <li> I Couldn't Become a Hero, So I Reluctantly Decided to Get a Job. </li>
+                <li> JoJo's Bizarre Adventure</li>
+                <li> Inuyasha</li>
+                <li> Kiba</li>
+                <li> Kiki's Delivery Service</li>
+                <li> Kobato.</li>
+                <li> KonoSuba</li>
+                <li> Kyo Kara Maoh!</li>
+                <li> Little Witch Academia</li>
+                <li> Log Horizon</li>
+                <li> Loveless</li>
+                <li> Made in Abyss</li>
+                <li> Magi</li>
+                <li> Magikano</li>
+                <li> Maoyu</li>
+                <li> Maria the Virgin Witch</li>
+                <li> Miyuki-chan in Wonderland</li>
+                <li> Mob Psycho 100</li>
+                <li> Monogatari (series)</li>
+                <li> Monster Musume</li>
+                <li> Murder Princess</li>
+                <li> My Hero Academia</li>
+                <li> Myriad Colors Phantom World</li>
+                <li> Naruto</li>
+                <li> Night Wizard!</li>
+                <li> Noragami</li>
+                <li> No Game No Life</li>
+                <li> One Piece</li>
+                <li> Overlord</li>
+                <li> One-Punch Man</li>
+                <li> Pandora Hearts</li>
+                <li> Queen's Blade</li>
+                <li> Rage of Bahamut: Genesis </li>
+                <li> Ragnarok the Animation</li>
+                <li> Ranma ½</li>
+                <li> Rental Magica</li>
+                <li> Sailor Moon</li>
+                <li> Sola</li>
+                <li> Spirited Away</li>
+                <li> Sword Art Online</li>
+                <li> Tales of the Abyss</li>
+                <li> The Irregular at Magic High School</li>
+                <li> The Devil Is a Part-Timer!</li>
+                <li> The Snow Queen</li>
+                <li> Tokyo Ghoul</li>
+                <li> Trigun</li>
+                <li> Violet Evergarden</li>
+                <li> Yu-Gi-Oh!</li>
+                <li> Yu Yu Hakusho</li>
+                <li> Yo-Kai Watch</li>
+                <li> The Seven Deadly Sins</li>
+                <li> The Rising of the Shield Hero</li>
+                <li> Penguin Highway</li>
+                <li> Zero no Tsukaima</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME FANTASY</pattern><template><srai>FANTASY</srai></template></category>
+    <category><pattern>I WANT FANTASY ANIME</pattern><template><srai>FANTASY</srai></template></category>
+    <category><pattern>RECOMMEND SOME FANTASY</pattern><template><srai>FANTASY</srai></template></category>
+    <category><pattern>I WANT TO WATCH FANTASY ANIME</pattern><template><srai>FANTASY</srai></template></category>
+    <category><pattern>FANTASY ANIME</pattern><template><srai>FANTASY</srai></template></category>
+    <category><pattern>RECOMMEND FANTASY ANIME</pattern><template><srai>FANTASY</srai></template></category>
+     
+    <category>
+        <pattern>HORROR</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Amon: The Darkside of The Devilman</li>
+                <li> Another</li>
+                <li> Betterman</li>
+                <li> Blood-C</li>
+                <li> Blue Gender</li>
+                <li> Bride of Deimos</li>
+                <li> Demon City Shinjuku</li>
+                <li> Demon Lord Dante</li>
+                <li> Demon Prince Enma</li>
+                <li> Highschool of the Dead</li>
+                <li> Hellsing</li>
+                <li> Happy Sugar Life</li>
+                <li> Higurashi When They Cry</li>
+                <li> Mononoke</li>
+                <li> Junji Ito Collection</li>
+                <li> Parasyte: The Maxim</li>
+                <li> Tokyo Ghoul</li>
+                <li> Uzumaki</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME HORROR</pattern><template><srai>HORROR</srai></template></category>
+    <category><pattern>I WANT HORROR ANIME</pattern><template><srai>HORROR</srai></template></category>
+    <category><pattern>RECOMMEND SOME HORROR</pattern><template><srai>HORROR</srai></template></category>
+    <category><pattern>I WANT TO WATCH HORROR ANIME</pattern><template><srai>HORROR</srai></template></category>
+    <category><pattern>HORROR ANIME</pattern><template><srai>HORROR</srai></template></category>
+    <category><pattern>RECOMMEND HORROR ANIME</pattern><template><srai>HORROR</srai></template></category>
+ 
+    <category>
+        <pattern>MYSTERY</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Death Note</li>
+                <li> Detective Conan</li>
+                <li> Hyouka</li>
+                <li> Erased</li>
+                <li> Mysterious Joker</li>
+                <li> Terror in Resonance</li>
+                <li> Umineko: When They Cry</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME MYSTERY</pattern><template><srai>MYSTERY</srai></template></category>
+    <category><pattern>I WANT MYSTERY ANIME</pattern><template><srai>MYSTERY</srai></template></category>
+    <category><pattern>RECOMMEND SOME MYSTERY</pattern><template><srai>MYSTERY</srai></template></category>
+    <category><pattern>I WANT TO WATCH MSTERY ANIME</pattern><template><srai>MYSTERY</srai></template></category>
+    <category><pattern>MYSTERY ANIME</pattern><template><srai>MYSTERY</srai></template></category>
+    <category><pattern>RECOMMEND MYSTERY ANIME</pattern><template><srai>MYSTERY</srai></template></category>
+
+    <category>
+        <pattern>ROMANCE</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> 5 Centimeters per Second</li>
+                <li> A Bridge to the Starry Skies</li>
+                <li> A Dark Rabbit Has Seven Lives</li>
+                <li> A Town Where You Live</li>
+                <li> A Whisker Away</li>
+                <li> Ai Yori Aoshi</li>
+                <li> Angel Tales</li>
+                <li> Blue Spring Ride</li>
+                <li> Boys Over Flowers</li>
+                <li> Cardcaptor Sakura</li>
+                <li> Dance With Devils</li>
+                <li> Darling in the Franxx</li>
+                <li> Date A Live</li>
+                <li> From Me To You</li>
+                <li> Glasslip</li>
+                <li> Golden Time</li>
+                <li> Kamisama Kiss</li>
+                <li> Kaguya-sama: Love Is War</li>
+                <li> Sword Art Online</li>
+                <li> To Love-Ru</li>
+                <li> The Wallflower</li>
+                <li> Yamada-kun and the Seven Witches</li>
+                <li> Your Name</li>
+                <li> Your Lie in April</li>
+                <li> I want to eat your pancreas</li>
+                <li> 3d Kanojo</li>
+                <li> Rental Girlfriend</li>
+                <li> Witch Craft Works</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME ROMANCE</pattern><template><srai>ROMANCE</srai></template></category>
+    <category><pattern>I WANT ROMANCE ANIME</pattern><template><srai>ROMANCE</srai></template></category>
+    <category><pattern>RECOMMEND SOME ROMANCE</pattern><template><srai>ROMANCE</srai></template></category>
+    <category><pattern>I WANT TO WATCH ROMANCE ANIME</pattern><template><srai>ROMANCE</srai></template></category>
+    <category><pattern>ROMANCE ANIME</pattern><template><srai>ROMANCE</srai></template></category>
+    <category><pattern>RECOMMEND ROMANCE ANIME</pattern><template><srai>ROMANCE</srai></template></category>
+    
+    <category>
+        <pattern>SCIFI</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Astro Boy</li>
+                <li> Arcadia of My Youth: Endless Orbit SSX</li>
+                <li> Ai City</li>
+                <li> Gundam</li>
+                <li> Code Geass</li>
+                <li> Cowboy Bebop</li>
+                <li> Steins;Gate</li>
+                <li> Erased</li>
+                <li> Black Bullet</li>
+                <li> Space Dandy</li>
+                <li> Sword Art Online</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME SCIFI</pattern><template><srai>SCIFI</srai></template></category>
+    <category><pattern>I WANT SCIFI ANIME</pattern><template><srai>SCIFI</srai></template></category>
+    <category><pattern>RECOMMEND SOME SCIFI</pattern><template><srai>SCIFI</srai></template></category>
+    <category><pattern>I WANT TO WATCH SCIFI ANIME</pattern><template><srai>SCIFI</srai></template></category>
+    <category><pattern>SCIFI ANIME</pattern><template><srai>SCIFI</srai></template></category>
+    <category><pattern>RECOMMEND SCIFI ANIME</pattern><template><srai>SCIFI</srai></template></category>
+
+    <category>
+        <pattern>SLICE OF LIFE</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Shrine of the Morning Mist</li>
+                <li> Bartender</li>
+                <li> Clannad</li>
+                <li> Lucky Star</li>
+                <li> K-On!</li>
+                <li> Daily Lives of Highschool Boys</li>
+                <li> Student Council's Discretion</li>
+                <li> And Yet the Town Moves</li>
+                <li> Bakuman</li>
+                <li> Working!!</li>
+                <li> Nichijou</li>
+                <li> Kill Me Baby</li>
+                <li> Hyouka</li>
+                <li> Free!</li>
+                <li> Love Live!</li>
+                <li> My Teen Romantic Comedy SNAFU</li>
+                <li> The Wind Rises</li>
+                <li> Barakamon</li>
+                <li> School-Live!</li>
+                <li> Is the Order a Rabbit?</li>
+                <li> Haven't You Heard? I'm Sakamoto</li>
+                <li> Tanaka-kun is Always Listless</li>
+                <li> Gabriel DropOut</li>
+                <li> Blend S</li>
+                <li> Uzaki-chan Wants to Hang Out!</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME SLICE OF LIFE</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+    <category><pattern>I WANT SLICE OF LIFE ANIME</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+    <category><pattern>RECOMMEND SOME SLICE OF LIFE</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+    <category><pattern>I WANT TO WATCH SLICE OF LIFE ANIME</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+    <category><pattern>SLICE OF LIFE ANIME</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+    <category><pattern>RECOMMEND SLICE OF LIFE ANIME</pattern><template><srai>SLICE OF LIFE</srai></template></category>
+
+    <category>
+        <pattern>SPORTS</pattern>
+        <template>
+            Anime Recommendation:  
+            <random>
+                <li> Slamdunk</li>
+                <li> Hoshiai no Sora</li>
+                <li> The Prince of Tennis</li>
+                <li> Free!</li>
+                <li> Yuri on Ice</li>
+                <li> Kuroko no Basuke</li>
+                <li> Eyeshield 21</li>
+                <li> Hajime no Ippo</li>
+                <li> Yowamushi Pedal</li>
+                <li> Welcome to the Ballroom</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>
+    <category><pattern>I WANT TO WATCH SOME SPORTS</pattern><template><srai>SPORTS</srai></template></category>
+    <category><pattern>I WANT SPORTS ANIME</pattern><template><srai>SPORTS</srai></template></category>
+    <category><pattern>RECOMMEND SOME SPORTS</pattern><template><srai>SPORTS</srai></template></category>
+    <category><pattern>I WANT TO WATCH SPORTS ANIME</pattern><template><srai>SPORTS</srai></template></category>
+    <category><pattern>SPORTS ANIME</pattern><template><srai>SPORTS</srai></template></category>
+    <category><pattern>RECOMMEND SPORTS ANIME</pattern><template><srai>SPORTS</srai></template></category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+                <li>I have no response.</li>
+                <li>Sorry. I didn't quite get that.</li>
+            </random>
+            <image>https://i.ibb.co/FKK6RQg/Slide3.jpg</image>
+        </template>
+    </category>    
+</aiml>
